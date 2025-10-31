@@ -6,14 +6,14 @@ int main(){
     printf("Enter the value of n:\n");
     scanf("%d",&n);
 
-    // while(i<=n){
-    //     printf("%d+",i);
-    //     i++;
-    //     sum+=i; 
-    // }
-    // printf("\nSum of 1 to %d is %d\n",n,sum);
-    // return 0;
-    sum = (n*(n+1))/2;
+    while(i<=n){
+        printf("%d+",i);
+        i++;
+        sum+=i; 
+    }
     printf("\nSum of 1 to %d is %d\n",n,sum);
+    return 0;
+    printf("\nSum of 1 to %d is %d\n",n,sum);
+
 
 }
